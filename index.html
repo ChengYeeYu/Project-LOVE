@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Little Message for You ❤️</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <p>
+                            <a style="text-decoration: none;" href="C:\Users\user\OneDrive\Documents\Web Developmentv(Coding)\Project L.O.V.E\Main Text Area\main_text.html">请点击我</a>
+                        </p>
+                        <style>
+                            a:link {
+                              color: rgb(239, 129, 230);
+                              background-color: transparent;
+                              text-decoration: none;
+                            }
+                            
+                            a:visited {
+                              color: rgb(239, 129, 230);
+                              background-color: transparent;
+                              text-decoration: none;
+                            }
+                            
+                            a:hover {
+                              color: rgb(252, 77, 77);
+                              background-color: transparent;
+                              text-decoration: underline;
+                            }
+                            
+                            a:active {
+                              color: rgb(255, 0, 0);
+                              background-color: transparent;
+                              text-decoration: underline;
+                            }
+                            </style>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
